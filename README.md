@@ -49,19 +49,23 @@ The goal is to identify which factors — such as alcohol, acidity, sulphates, a
 | **Predicted vs Actual** | Evaluates prediction accuracy |
 | **Distribution Plot** | Compares fitted and actual value distributions |
 
+---
 
-## 📊 Exploratory Data Analysis (EDA)
+### Exploratory Data Analysis (EDA)
 The dataset’s correlations and feature relationships were explored visually to understand which factors most influence wine quality.
 
-**1️⃣ Correlation Heatmap**
+**1. Correlation Heatmap**
 This heatmap shows the relationship between all chemical properties and wine quality.  
 We can observe that `alcohol` has the strongest positive correlation, while `volatile acidity` has a strong negative relationship.
+
 ![Correlation Heatmap](Assets/Correlation_Heatmap.png)
 
 ---
-**2️⃣ Pairwise Relationships**
+
+**2. Pairwise Relationships**
 Pairwise plots help visualize linear trends between variables and identify clusters or patterns.  
 Here we can clearly see positive slopes between alcohol and quality, confirming the results of the regression model.
+
 ![Pairwise Relationships](Assets/Pairwise_Relationships.png)
 
 ---
@@ -73,7 +77,4 @@ Here we can clearly see positive slopes between alcohol and quality, confirming 
 - Higher **sulphate levels** enhance wine stability and perceived quality.  
 - The model explains around **33% of total variance**, suggesting non-linear effects may exist.  
 
----
-
-## 🧩 Repository Structure  
 
