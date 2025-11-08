@@ -1,0 +1,61 @@
+docs/index.md
+
+---
+layout: default
+title: 🍷 Wine Quality Prediction
+---
+
+# 🍷 Wine Quality Prediction (Multiple Linear Regression)
+
+Welcome to my project!  
+This page showcases my analysis of **wine quality prediction** using **Multiple Linear Regression (MLR)** and visual diagnostics.
+
+> 本项目基于葡萄酒的化学特征，使用 **多元线性回归（MLR）** 预测葡萄酒质量评分。  
+> 通过模型拟合与可视化分析，识别影响酒质的关键因素并验证模型假设。
+
+---
+
+## 📊 Project Overview
+
+The goal is to identify which features (such as **alcohol**, **acidity**, and **sulphates**) most strongly influence wine quality.  
+The model achieved an **R² ≈ 0.33**, indicating moderate explanatory power and suggesting some nonlinear effects may exist.
+
+---
+
+## 🧠 Key Visualizations
+
+### 🔥 Correlation Heatmap
+Shows correlations between features and target variable.
+![Correlation Heatmap](../Assets/Correlation_Heatmap.png)
+
+### 🍇 Pairwise Relationships
+Visualizes pairwise feature relationships and linear trends.
+![Pairwise Relationships](../Assets/Pairwise_Relationships.png)
+
+---
+
+## 🧾 Model Summary
+- **Model:** `quality ~ alcohol + volatile_acidity + sulphates + citric_acid + density`
+- **Significant Variables:**  
+  - ✅ `alcohol` (positive)  
+  - ✅ `sulphates` (positive)  
+  - ❌ `volatile_acidity` (negative)
+- **VIF check:** All < 5 (no strong multicollinearity)  
+- **Residuals:** roughly normal and homoscedastic
+
+---
+
+## 🚀 Next Steps
+- Extend with **Polynomial Regression** or **Tree-based models**
+- Add **SHAP / Feature importance** for interpretability
+- Deploy interactive dashboard (Streamlit)
+
+---
+
+## 👩‍💻 Author
+**Gia Hu**  
+Data Analyst | Machine Learning Enthusiast  
+[GitHub Repo](https://github.com/Giahuth-88/Wine-Quality-MLR)
+
+---
+⭐️ If you find this project interesting, please consider giving it a star on GitHub!
