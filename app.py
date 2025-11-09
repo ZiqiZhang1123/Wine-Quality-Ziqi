@@ -5,7 +5,7 @@ from pathlib import Path
 # Page Setup
 # -----------------------------
 st.set_page_config(
-    page_title="Wine Quality MLR",
+    page_title="Wine Quality Prediction (Jia & Ziqi) ",
     page_icon="🍷",
     layout="wide",
 )
