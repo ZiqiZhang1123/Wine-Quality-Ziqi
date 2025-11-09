@@ -1,5 +1,10 @@
 # 🍷 Wine Quality Prediction (Multiple Linear Regression)
 
+**Collaborators ：**  
+- **Ziqi Zhang** — Model interpretation, app interface design, documentation rewrite  
+- **Jia Hu** — Original code framework and initial data preprocessing  
+
+This project was developed collaboratively for learning and research purposes.
 ### 🎯 Project Overview  
 This project analyzes the chemical properties of wine and predicts its quality score using **Multiple Linear Regression (MLR)**.  
 The goal is to identify which factors — such as alcohol, acidity, sulphates, and density — most strongly influence wine quality, and to evaluate the model's performance through diagnostic visualization.
